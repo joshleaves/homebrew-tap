@@ -1,16 +1,16 @@
 class Wherefrom < Formula
   desc "Read file origin from macOS metadata (kMDItemWhereFroms)"
   homepage "https://github.com/joshleaves/wherefrom"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/joshleaves/wherefrom/releases/download/v0.1.0/wherefrom-aarch64-apple-darwin"
-      sha256 "f135d50ab5655532c30aa53cf646294cd610f0112c1a463c04a32c16e28c78e9"
+      url "https://github.com/joshleaves/wherefrom/releases/download/v0.1.1/wherefrom-aarch64-apple-darwin"
+      sha256 "0016a6526b1135fb73cbbb66e68b2d1f493172ddfb698450daade38f63ba5a51"
     else
-      url "https://github.com/joshleaves/wherefrom/releases/download/v0.1.0/wherefrom-x86_64-apple-darwin"
-      sha256 "100720e60f08dcd7b9c0ec6da5dd0ceb434f0b0cfc8032f6f39154e86baf0d4d"
+      url "https://github.com/joshleaves/wherefrom/releases/download/v0.1.1/wherefrom-x86_64-apple-darwin"
+      sha256 "237a107e37b093c539fe893f5fb34764a6a41ff1c555091755c7c5bd1fb4abf9"
     end
   end
 
